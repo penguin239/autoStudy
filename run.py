@@ -8,12 +8,12 @@ from selenium.webdriver.common.keys import Keys
 
 cookie = {}
 headers = {
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36 Edg/96.0.1054.62',
+        'User-Agent': '',
     }
 well_stu = {} #存放将要学习的项目的连接
 
 option = webdriver.ChromeOptions()
-option.add_argument(r'--user-data-dir=C:\Users\30931\AppData\Local\Google\Chrome\User Data')
+option.add_argument(r'--user-data-dir=')
 browser = webdriver.Chrome(options=option)
 
 news = []
